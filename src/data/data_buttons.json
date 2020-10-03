@@ -1,0 +1,21 @@
+[
+    {
+        "idBoton": "0",
+        "color": "",
+        "categoria": "Superior"
+    },
+    {
+        "idBoton": "1",
+        "color": "",
+        "categoria": "Inferior"
+    },
+    {
+        "idBoton": "2",
+        "color": "",
+        "categoria": "Natación"
+    },{
+        "idBoton": "3",
+        "color": "",
+        "categoria": "Faldas"
+    }
+]

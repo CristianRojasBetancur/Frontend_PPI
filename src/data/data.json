@@ -1,0 +1,23 @@
+[
+    {
+        "id": 0,
+        "prenda": "Pantaloneta",
+        "precio": "$ 19.700",
+        "descripcion": "Pantaloneta para hacer la actividad física de manera comoda y fresca.",
+        "imagen": "https://github.com/CristianRojasBetancur/Frontend_PPI/blob/master/src/img/7.jpg?raw=true"
+    },
+    {
+        "id": 1,
+        "prenda": "Camiseta diario",
+        "precio": "$ 12.500",
+        "descripcion": "Camiseta de gala para lucir el escudo de la institución.",
+        "imagen": "https://github.com/CristianRojasBetancur/Frontend_PPI/blob/master/src/img/2.jpg?raw=true"
+    },
+    {
+        "id": 2,
+        "prenda": "Chompa",
+        "precio": "$ 56.900",
+        "descripcion": "Chompa para romper el frío de las mañanas inemitas.",
+        "imagen": "https://github.com/CristianRojasBetancur/Frontend_PPI/blob/master/src/img/5.jpg?raw=true"
+    }
+]
