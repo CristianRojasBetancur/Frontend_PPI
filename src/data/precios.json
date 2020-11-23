@@ -1,0 +1,44 @@
+[
+    {
+        "id": 0,
+        "prenda": "camisa educacion fisica",
+        "talla": "6-8",
+        "precio": "$ 19.300"
+    },
+    {
+        "id": 1,
+        "prenda": "camisa educacion fisica",
+        "talla": "10-12",
+        "precio": "$ 21.400"
+    },
+    {
+        "id": 2,
+        "prenda": "camisa educacion fisica",
+        "talla": "14-16",
+        "precio": "$ 23.500"
+    },
+    {
+        "id": 3,
+        "prenda": "camisa educacion fisica",
+        "talla": "S",
+        "precio": "$ 25.900"
+    },
+    {
+        "id": 4,
+        "prenda": "camisa educacion fisica",
+        "talla": "M",
+        "precio": "$ 27.200"
+    },
+    {
+        "id": 5,
+        "prenda": "camisa educacion fisica",
+        "talla": "L",
+        "precio": "$ 28.600"
+    },
+    {
+        "id": 6,
+        "prenda": "camisa educacion fisica",
+        "talla": "XL",
+        "precio": "$ 29.900"
+    }
+]

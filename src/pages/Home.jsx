@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import Carousel from '../components/Carousel';
 import data_cards from '../data/data_cards.json';
-import Navbar from '../components/Navbar';
-import { Button } from 'react-bootstrap';
 import '../styles.css'
-import Card from '../components/Card';
+import MiCard from '../components/Card';
+import { Link } from 'react-router-dom';
 
 
 export default class Home extends Component {
@@ -20,18 +19,23 @@ export default class Home extends Component {
     render() {
         return (
             <>
-                <Navbar />
                 <Carousel data={this.props.data} />
                 <br></br>
                 <h2>Categorias</h2>
-                <br/>
+                <br />
                 <div className="contButtons container">
-                    <Button style={{backgroundColor: "#E5FF6F", border: "none"}} className="mr-2">Superior</Button>{' '}
-                    <Button style={{backgroundColor: "#A0FF6F", border: "none"}} className="mr-2">Inferior</Button>{' '}
-                    <Button style={{backgroundColor: "#6FFFA7", border: "none"}} className="mr-2">Natación</Button>{' '}
-                    <Button style={{backgroundColor: "#6FFFF5", border: "none"}} className="m-2">Zapatos</Button>{' '}
+                    <Link to="/productos" style={{ backgroundColor: "#E5FF6F", border: "none" }} className="mr-2 btn btn-dark" > Superior</Link>{' '}
+                    <Link to="/productos" style={{ backgroundColor: "#A0FF6F", border: "none" }} className="mr-2 btn btn-dark" > Inferior</Link>{' '}
+                    <Link to="/productos" style={{ backgroundColor: "#6FFFA7", border: "none" }} className="btn btn-dark" > Natación</Link>{' '}
+                    <Link to="/productos" style={{ backgroundColor: "#6FFFF5", border: "none" }} className="m-2 btn btn-dark" > Zapatos</Link>{' '}
                 </div>
-                <Card/>
+                <br /><br />
+                <div className="container-fluid">
+                    <div className="row justify-content-center">
+                        <MiCard data={this.state.data} />
+                    </div>
+                </div>
+                <br />
             </>
         )
     }
